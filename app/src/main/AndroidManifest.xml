@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gym.fitnesszone">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme">
+        <activity
+            android:launchMode="singleTop"
+            android:name=".Welcome"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.gym.fitnesszone.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowMember"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.gym.fitnesszone.SHOWMEMBER" />
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.gym.fitnesszone.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name =".EditContact"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.gym.fitnesszone.EDITCONTACT" />
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.gym.fitnesszone.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Tab3"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="com.gym.fitnesszone.TAB3" />
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.gym.fitnesszone.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".SendingAlert"
+            android:exported="false" />
+    </application>
+
+</manifest>

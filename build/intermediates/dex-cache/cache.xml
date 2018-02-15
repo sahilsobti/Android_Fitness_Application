@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c9d2b6c1c06155210b183f045303bfc2632e3e82\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\eclipse_java_practice\FitnessZone3\app\build\intermediates\pre-dexed\debug\classes_6dcfb60753275789afbe64b06c420251f40ef06e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\eclipse_java_practice\FitnessZone3\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_af0d5db4e60e2a92bdde6a91214c9dc481851714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1676fee1307b2225cd2862dcc9431fe9553a5465\output\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\eclipse_java_practice\FitnessZone3\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_7107fee36a9bc823e54c27e190859e26d722593a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1676fee1307b2225cd2862dcc9431fe9553a5465\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\eclipse_java_practice\FitnessZone3\app\build\intermediates\pre-dexed\debug\classes_f8d5da3057fccfbed29ac5d2dbb4e4e22b1b284b.jar" />
+    </item>
+
+</items>
